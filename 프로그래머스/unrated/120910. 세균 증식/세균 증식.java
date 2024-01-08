@@ -8,3 +8,14 @@ class Solution {
         return answer;
     }
 }
+// 다른 사람의 풀이
+// 비트 연산자 정리 
+class Solution {
+    public int solution(int n, int t) {
+        int answer = 0;
+
+        answer = n << t;
+
+        return answer;
+    }
+}
