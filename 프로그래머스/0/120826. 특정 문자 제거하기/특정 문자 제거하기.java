@@ -12,3 +12,11 @@ class Solution {
         return answer.toString();
     }
 }
+// 다른 사람의 풀이 
+// replace() 사용 
+// str.replace(CharSequence target, CharSequence replacement); 모든 target replacement로 치환 
+class Solution {
+    public String solution(String my_string, String letter) {
+        return my_string.replace(letter, "");
+    }
+}
